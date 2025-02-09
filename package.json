@@ -1,0 +1,22 @@
+{
+  "name": "e8",
+  "version": "1.0.0",
+  "description": "an agent for friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_OPTIONS='--no-warnings' ts-node ./chatbot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kratijain",
+  "license": "ISC",
+  "dependencies": {
+    "@coinbase/agentkit": "^0.1.2",
+    "@coinbase/agentkit-langchain": "^0.1.0",
+    "@langchain/core": "^0.3.39",
+    "@langchain/langgraph": "^0.2.45",
+    "@langchain/openai": "^0.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "viem": "^2.22.23"
+  }
+}
